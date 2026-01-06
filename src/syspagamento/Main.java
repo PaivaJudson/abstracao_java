@@ -8,7 +8,6 @@ public class Main {
         Pagamento boleto = new Boleto(2000000);
         Pix pix = new Pix(1000000);
 
-
         realizarPagamento(boleto);
         realizarPagamento(cartao);
         realizarPagamento(pix);
